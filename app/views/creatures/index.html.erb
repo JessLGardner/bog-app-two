@@ -1,0 +1,9 @@
+<h1>creatures</h1>
+
+<% @creatures.order("created_at ASC").each do |creature| %>
+    <div>
+        <h3><%= creature.name %></h3>
+        <p><%= creature.description %></p>
+        <br/>
+    </div>
+<% end %>
