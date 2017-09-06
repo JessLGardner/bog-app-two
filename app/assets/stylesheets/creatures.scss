@@ -1,3 +1,19 @@
-// Place all the styles related to the Creatures controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootswatch/flatly/variables";
+@import "bootstrap";
+@import "bootswatch/flatly/bootswatch";
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+// .btn-group {
+//     display: inline-block;
+// }
+
+// button {
+//     display: inline-block;
+// }
